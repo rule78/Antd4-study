@@ -91,6 +91,9 @@ export default {
   ignoreMomentLocale: true,
   lessLoaderOptions: {
     javascriptEnabled: true,
+    cssModulesTypescriptLoader: {
+      mode: 'emit',
+    },
   },
   disableRedirectHoist: true,
   cssLoaderOptions: {
